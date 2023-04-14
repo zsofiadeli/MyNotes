@@ -15,7 +15,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import static java.util.Collections.singletonList;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "com.petproject1.daxi.domain.repository")
+@EnableMongoRepositories(basePackages = "com.petproject1.daxi.repository")
 public class MongoConfig {
 
     @Bean
